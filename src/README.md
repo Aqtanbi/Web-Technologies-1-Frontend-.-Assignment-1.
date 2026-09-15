@@ -21,10 +21,15 @@ This repository contains the first practical assignment for Web Technologies. Us
 * **Step 7 (Emojis):** Added a paragraph expressing current mood with emojis (😞😭😴).
 * **Step 8 (HTML Forms):** Created a submission form containing text input for Name, email input, color picker, and a submit button.
 
+## Part 3. Introduction to CSS
+
+* **Step 9 & 10 (Intro & Inline CSS):** Applied styling to the webpage and used an inline style (`style="color: blue;"`) for a paragraph element.
+* **Step 11 & 12 (External CSS):** Created an external stylesheet (`style.css`) and linked it via the `<link>` tag to manage global rules, layout, and colors.
+* **Step 13 & 14 (Selectors, Classes & IDs):** Used element selectors, created a `.highlight` class for multiple elements, and styled the main heading using an ID selector (`#main-heading`).
+
 ## Screenshots
-![alt text](image-2.png)
-![alt text](image-1.png)
-![alt text](image.png)
+![Alt text](images\image-3.png)
+![Alt text](images\part3.png)
 
 
 ## How to Run

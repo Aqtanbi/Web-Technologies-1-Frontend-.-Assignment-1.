@@ -4,34 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Webpage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Kusman Aktanbi</h1>
-    <h2>SE-2539</h2>
-    <h3>About me</h3>
-    <p>I am second year student of Software Engineering at Astana IT University.</p>
-    <p>I have a basic knowledge in Java, C++, Python, PostgreSQL, HTML, CSS.</p>
+<body background="aitu.jpg">
+    <h1 id="main-heading">Kusman Aktanbi</h1>
+    <h2 class="highlight">SE-2539</h2>
+    <h3 class="highlight">About me</h3>
+    <p id="info">I am second year student of Software Engineering at Astana IT University. <br>
+        I have a basic knowledge in Java, C++, Python, PostgreSQL, HTML, CSS.</p>
     <hr>
-    <p><b>My Hobbies:</b></p>
+    <p class="highlight"><b>My Hobbies:</b></p>
     <ol>
-        <li>Reading books</li>
-        <li>Play videogames</li>
-        <li>Watch series, korean drama, anime</li>
-        <li>Running</li>
-        <li>Learn new skills</li>
+        <li class="list">Reading books</li>
+        <li class="list">Play videogames</li>
+        <li class="list">Watch series, korean drama, anime</li>
+        <li class="list">Running</li>
+        <li class="list">Learn new skills</li>
     </ol>
-    <p><b>Favorite Websites:</b></p>
+    <p style="color: blue;"><b>Favorite Websites:</b></p>
     <ul>
         <li><a href="https://www.youtube.com/">youtube.com</a></li>
         <li><a href="https://chatgpt.com/">chatgpt.com</a></li>
         <li><a href="https://www.kinopoisk.ru/">kinopoisk.kz</a></li>
         <li><a href="https://open.spotify.com/">spotify.com</a></li>
     </ul>
-    <img src="C:\Users\Aqsh\Desktop\FE\my_photo.jpg" alt="It's me :>" width="250">
+    <img src="../images/my_photo.jpg" alt="It's me :>">
     <br>
     <button>Click me!</button>
     <br>
-    <table border="1" width="50%">
+    <table>
         <caption>Schedule example</caption>
         <tr>
             <th>Subject</th>
@@ -64,7 +65,7 @@
             <td>16:00-18:00</td>
         </tr>
     </table>
-    <table border="1" width="100%">
+    <table>
         <caption>Step-6</caption>
         <tr>
             <td>
@@ -82,7 +83,7 @@
             </td>
         </tr>
     </table>
-    <p>😞😭😴 I really want to sleep, but also, I must complete it tonight!</p>
+    <p class="highlight">😞😭😴 I really want to sleep, but also, I must complete it tonight!</p>
     <form action="" method="post">
         Name:
         <input type="text" name="name" id="" placeholder="name:"> <br>
