@@ -28,8 +28,8 @@ This repository contains the first practical assignment for Web Technologies. Us
 * **Step 13 & 14 (Selectors, Classes & IDs):** Used element selectors, created a `.highlight` class for multiple elements, and styled the main heading using an ID selector (`#main-heading`).
 
 ## Screenshots
-![Alt text](images\image-3.png)
-![Alt text](images\part3.png)
+![Alt text](images/image-3.png)
+![Alt text](images/part3.png)
 
 
 ## How to Run
