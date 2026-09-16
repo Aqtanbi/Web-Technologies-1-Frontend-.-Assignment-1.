@@ -47,7 +47,7 @@ This repository contains the first practical assignment for Web Technologies. Us
 * **Step 18 (CSS Positioning):** Created examples of static, relative, and absolute positioning. The relative element is slightly shifted from its original position, while the absolute element is positioned inside a relative container.
 * **Step 19 (CSS Sizing):** Used different CSS units, including px, %, em, and rem, to control the sizes of headings, images, and containers.
 * **Step 20 (Float and Clear):** Created two boxes using float: left and float: right. Used clear: both to place the following content below the floated elements.
-* **Step 21 (Publishing):** website will published at next commit.
+* **Step 21 (Publishing):** WEBSITE: [Click here!](https://aqtanbi.github.io/Web-Technologies-1-Frontend-.-Assignment-1./)
 ## Screenshots
 ## Part 1 & 2 screenshots is available in folder images.
 ## part 3:
