@@ -49,10 +49,9 @@ This repository contains the first practical assignment for Web Technologies. Us
 * **Step 20 (Float and Clear):** Created two boxes using float: left and float: right. Used clear: both to place the following content below the floated elements.
 * **Step 21 (Publishing):** website will published at next commit.
 ## Screenshots
-Part 1 screenshots is available in folder images.
-## Part 2:
-![Alt text](images/image-3.png)
+## Part 1 & 2 screenshots is available in folder images.
 ## part 3:
+![Alt text](images/image-3.png)
 ![Alt text](images/part3.png)
 ## Part 4:
 ![Alt text](images/part41.png)
