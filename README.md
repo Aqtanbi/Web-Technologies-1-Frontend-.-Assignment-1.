@@ -4,6 +4,17 @@ Full name: Kusman Aktanbi
 Group: SE-2539
 
 Course: WEB Technologies 1 (Frontend)
+## Project structure:
+project/
+│
+├── index.html
+├── style.css
+├── favicon.png
+├── aitu.jpg
+│
+└── images/
+    └── my_photo.jpg
+
 ## Part 1. Introduction to HTML
 ## Overview
 This repository contains the first practical assignment for Web Technologies. Using basic HTML tags, document structure, lists, media, and interactive elements.
@@ -27,11 +38,32 @@ This repository contains the first practical assignment for Web Technologies. Us
 * **Step 11 & 12 (External CSS):** Created an external stylesheet (`style.css`) and linked it via the `<link>` tag to manage global rules, layout, and colors.
 * **Step 13 & 14 (Selectors, Classes & IDs):** Used element selectors, created a `.highlight` class for multiple elements, and styled the main heading using an ID selector (`#main-heading`).
 
+## Part 4. Intermediate CSS
+
+## Implemented Steps
+* **Step 15 (Favicons):** Added a favicon to the website using the <link rel="icon"> tag with a PNG image.
+* **Step 16 (HTML Divs):** Used <div> elements to group content into header, main content, and footer sections. Applied background colors, padding, and flexbox layout.
+* **Step 17 (Box Model):** Applied borders, margins, and padding to different elements. Used the CSS box model to control spacing and element sizes.
+* **Step 18 (CSS Positioning):** Created examples of static, relative, and absolute positioning. The relative element is slightly shifted from its original position, while the absolute element is positioned inside a relative container.
+* **Step 19 (CSS Sizing):** Used different CSS units, including px, %, em, and rem, to control the sizes of headings, images, and containers.
+* **Step 20 (Float and Clear):** Created two boxes using float: left and float: right. Used clear: both to place the following content below the floated elements.
+* **Step 21 (Publishing):** website will published at next commit.
 ## Screenshots
+Part 1 screenshots is available in folder images.
+## Part 2:
 ![Alt text](images/image-3.png)
+## part 3:
 ![Alt text](images/part3.png)
-
-
+## Part 4:
+![Alt text](images/part41.png)
+![Alt text](images/part42.png)
+![Alt text](images/part43.png)
 ## How to Run
 1. Download or clone this repository.
 2. Open the `index.html` file in any modern web browser.
+3. Make sure that style.css and all image files are located in the correct folders.
+
+## Technologies Used: 
+* HTML5
+* CSS3
+* GitHub Pages

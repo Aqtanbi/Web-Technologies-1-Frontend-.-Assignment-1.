@@ -3,97 +3,273 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>My First Webpage</title>
+
+    <link rel="icon" type="image/png" href="favicon.png">
+
     <link rel="stylesheet" href="style.css">
 </head>
-<body background="aitu.jpg">
-    <h1 id="main-heading">Kusman Aktanbi</h1>
-    <h2 class="highlight">SE-2539</h2>
-    <h3 class="highlight">About me</h3>
-    <p id="info">I am second year student of Software Engineering at Astana IT University. <br>
-        I have a basic knowledge in Java, C++, Python, PostgreSQL, HTML, CSS.</p>
-    <hr>
-    <p class="highlight"><b>My Hobbies:</b></p>
-    <ol>
-        <li class="list">Reading books</li>
-        <li class="list">Play videogames</li>
-        <li class="list">Watch series, korean drama, anime</li>
-        <li class="list">Running</li>
-        <li class="list">Learn new skills</li>
-    </ol>
-    <p style="color: blue;"><b>Favorite Websites:</b></p>
-    <ul>
-        <li><a href="https://www.youtube.com/">youtube.com</a></li>
-        <li><a href="https://chatgpt.com/">chatgpt.com</a></li>
-        <li><a href="https://www.kinopoisk.ru/">kinopoisk.kz</a></li>
-        <li><a href="https://open.spotify.com/">spotify.com</a></li>
-    </ul>
-    <img src="../images/my_photo.jpg" alt="It's me :>">
-    <br>
-    <button>Click me!</button>
-    <br>
-    <table>
-        <caption>Schedule example</caption>
-        <tr>
-            <th>Subject</th>
-            <th>Day</th>
-            <th>Time</th>
-        </tr>
-        <tr>
-            <td>Design and analisys of algorithms</td>
-            <td>Monday</td>
-            <td>18:00-20:00</td>
-        </tr>
-        <tr>
-            <td>WEB Technologies 1</td>
-            <td>Tuesday</td>
-            <td>15:00-18:00</td>
-        </tr>
-        <tr>
-            <td>Russian language C1</td>
-            <td>Wednesday</td>
-            <td>18:00-20:00</td>
-        </tr>
-        <tr>
-            <td>Introduction to Finances</td>
-            <td>Thursday</td>
-            <td>15:00-17:00</td>
-        </tr>
-        <tr>
-            <td>Operating Systems</td>
-            <td>Friday</td>
-            <td>16:00-18:00</td>
-        </tr>
-    </table>
-    <table>
-        <caption>Step-6</caption>
-        <tr>
-            <td>
-                <h4>Menu</h4>
-                <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#hobbies">Hobbies</a></li>
-                    <li><a href="#schedule">Schedule</a></li>
-                </ul>
-            </td>
-            <td>
-                <h4>Main Content</h4>
-                <p>Welcome to my website! Here you can find information about my studies, hobbies, and schedule.</p>
-                <p>This section represents the main content area structured inside a table cell.</p>
-            </td>
-        </tr>
-    </table>
-    <p class="highlight">😞😭😴 I really want to sleep, but also, I must complete it tonight!</p>
-    <form action="" method="post">
-        Name:
-        <input type="text" name="name" id="" placeholder="name:"> <br>
-        Email:
-        <input type="email" name="email" id="" placeholder="example@gmail.com"> <br>
-        Color:
-        <input type="color" name="color" id="" > <br>
-        Save: 
-        <input type="submit" value="Save">
-    </form>
+
+<body>
+
+    <header class="header">
+        <div class="header-content">
+            <a href="home.html">
+                <img src="favicon.png" alt="Website logo" class="logo">
+            </a>
+
+            <nav>
+                <a href="#about">About Me</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#schedule">Schedule</a>
+            </nav>
+
+            <input type="search" placeholder="Search">
+        </div>
+    </header>
+
+    <main class="main-content">
+
+        <section id="about">
+            <h1 id="main-heading">Full name: Kusman Aktanbi</h1>
+            <h2>Group: SE-2539</h2>
+
+            <h3>About me:</h3>
+
+            <p>
+                I am a second year student of Software Engineering
+                at Astana IT University.
+                I have basic knowledge in Java, C++, Python,
+                PostgreSQL, HTML, and CSS.
+            </p>
+        </section>
+
+        <section class="box-model">
+            <h2>Box Model Example</h2>
+            <p>
+                This section demonstrates margin, padding,
+                and border.
+            </p>
+        </section>
+
+        <section id="hobbies">
+            <h3>My Hobbies:</h3>
+
+            <ol>
+                <li class="list">Reading books</li>
+                <li class="list">Playing video games</li>
+                <li class="list">Watching series, Korean dramas, and anime</li>
+                <li class="list">Running</li>
+                <li class="list">Learning new skills</li>
+            </ol>
+        </section>
+
+        <section>
+            <h3>Favorite Websites:</h3>
+
+            <ul>
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        youtube.com
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://chatgpt.com/" target="_blank">
+                        chatgpt.com
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.kinopoisk.ru/" target="_blank">
+                        kinopoisk.ru
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://open.spotify.com/" target="_blank">
+                        spotify.com
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <img
+                src="../images/my_photo.jpg"
+                alt="my photo"
+                class="my-photo"
+            >
+        </section>
+
+        <button type="button">Click me!</button>
+
+        <section class="positioning-section">
+            <h2>CSS Positioning</h2>
+
+            <div class="static-box">
+                Static element
+            </div>
+
+            <div class="relative-box">
+                Relative element
+            </div>
+
+            <div class="absolute-container">
+                <div class="absolute-box">
+                    Absolute element
+                </div>
+            </div>
+        </section>
+
+        <section class="float-section">
+            <h2>Float and Clear</h2>
+
+            <div class="float-left">
+                Left box
+            </div>
+
+            <div class="float-right">
+                Right box
+            </div>
+
+            <div class="clear-box">
+                This text appears below both floated boxes.
+            </div>
+        </section>
+
+        <section id="schedule">
+            <table>
+                <caption>Schedule Example</caption>
+
+                <tr>
+                    <th>Subject</th>
+                    <th>Day</th>
+                    <th>Time</th>
+                </tr>
+
+                <tr>
+                    <td>Design and Analysis of Algorithms</td>
+                    <td>Monday</td>
+                    <td>18:00–20:00</td>
+                </tr>
+
+                <tr>
+                    <td>WEB Technologies 1</td>
+                    <td>Tuesday</td>
+                    <td>15:00–18:00</td>
+                </tr>
+
+                <tr>
+                    <td>Russian Language C1</td>
+                    <td>Wednesday</td>
+                    <td>18:00–20:00</td>
+                </tr>
+
+                <tr>
+                    <td>Introduction to Finances</td>
+                    <td>Thursday</td>
+                    <td>15:00–17:00</td>
+                </tr>
+
+                <tr>
+                    <td>Operating Systems</td>
+                    <td>Friday</td>
+                    <td>16:00–18:00</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <table>
+                <caption>Step 6</caption>
+
+                <tr>
+                    <td>
+                        <h4>Menu</h4>
+
+                        <ul>
+                            <li><a href="#about">About Me</a></li>
+                            <li><a href="#hobbies">Hobbies</a></li>
+                            <li><a href="#schedule">Schedule</a></li>
+                        </ul>
+                    </td>
+
+                    <td>
+                        <h4>Main Content</h4>
+
+                        <p>
+                            Welcome to my website!
+                            Here you can find information
+                            about my studies, hobbies, and schedule.
+                        </p>
+
+                        <p>
+                            This section represents the main content
+                            area structured inside a table cell.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <p class="message">
+            😞😭😴 I really want to sleep,
+            but also, I must complete it tonight!
+        </p>
+
+        <form action="" method="post">
+
+            <label for="name">Name:</label>
+            <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+            >
+            <br>
+
+            <label for="email">Email:</label>
+            <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="example@gmail.com"
+            >
+            <br>
+
+            <label for="color">Color:</label>
+            <input
+                type="color"
+                name="color"
+                id="color"
+            >
+            <br>
+
+            <input type="submit" value="Save">
+
+        </form>
+
+    </main>
+
+    <footer class="footer">
+
+        <div>
+            <img src="favicon.png" alt="Website logo" class="footer-logo">
+        </div>
+
+        <div>
+            <p>Author: Aktanbi Kusman</p>
+
+            <p>
+                <a href="mailto:kusmanaktanbi08@gmail.com">
+                    kusmanaktanbi08@gmail.com
+                </a>
+            </p>
+        </div>
+
+    </footer>
 
 </body>
 </html>
